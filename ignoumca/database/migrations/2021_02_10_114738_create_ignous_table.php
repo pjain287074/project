@@ -22,7 +22,7 @@ class CreateIgnousTable extends Migration
             $table->string('gender');
             $table->string('city');
             $table->string('income');
-            $table->string('experience');
+            $table->string('experience')->nullable();
             $table->string('familymember');
             $table->timestamps();
         });

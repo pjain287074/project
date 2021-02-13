@@ -18,7 +18,11 @@ Route::get('/greeting', function () {
 });
 
 Route::post('/insert','surveycontroller@insert');
+Route::post('/productinsert','surveycontroller@productinsert');
+//Route::post('/productinsert','productcontroller@productinsert');
 Route::get('/show','surveycontroller@show');
+Route::get('/productinfo','surveycontroller@productinfo');
+//Route::get('/productinfo','productcontroller@productinfo');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
