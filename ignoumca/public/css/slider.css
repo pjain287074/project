@@ -1,0 +1,136 @@
+
+
+
+/* slider starts here */
+.responsive-slider{
+  height: 460px;
+  overflow: hidden;
+  position: relative;
+}
+.responsive-slider img{
+    height: 400px;
+}
+.responsive-slider:hover .slick-arrow{
+  opacity: 1;
+}
+
+.responsive-slider .slick-arrow {
+  opacity: 0;
+  top: 45%;
+  position: absolute;
+  transform: translateY(-50%);
+  z-index: 1;
+  background: transparent;
+  /* opacity: 0; */
+  font-size: 0;
+  /* width: 0px; */
+  color: transparent;
+  padding: 0;
+  border-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+.responsive-slider .slick-prev{
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.responsive-slider .slick-next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.slick-arrow:before{
+  background: #f4f4f5d9;
+  height: 100px;
+  width: 50px;
+  content: '';
+  display: block;
+  
+}
+.slick-prev:before{
+  border-radius: 0 3px 3px 0 ;
+}
+.slick-next:before{
+  border-radius: 3px 0 0 3px;
+}
+.slick-arrow:hover:before{
+  background: var(--light);
+}
+.slick-arrow:hover:after{
+  opacity: 1;
+}
+.slick-arrow:after{
+  content: '';
+  padding: 10px;
+  border: 1px solid #000;
+  position: absolute;
+  transform: translateY(-50%) rotateZ(45deg);
+  top: 50%;
+  opacity: 0.5;
+}
+
+.slick-prev:after{
+  border-right: 0;
+  border-top: 0;
+  left: 20px;
+}
+.slick-next:after{
+  
+  border-left: 0;
+  border-bottom: 0;
+  right: 15px;
+}
+
+
+/* slider dots */
+.responsive-slider .slick-dots {
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 0;
+  padding: 0;
+  
+}
+.responsive-slider .slick-dots li:before{
+  transition: background-color .2s;
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--main-primary-color);
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  cursor: pointer;
+}
+.responsive-slider .slick-dots li{
+  background: transparent;
+  cursor: pointer;
+}
+.responsive-slider .slick-dots li button{
+  opacity: 0;
+  cursor: pointer;
+}
+.responsive-slider .slick-dots .slick-active::before{
+  background: var(--main-primary-color);
+}
+
+
+@media (max-width: 550px) {
+  .responsive-slider{
+    height: 224px;
+  }
+  .responsive-slider img{
+    height: 180px;
+  }
+
+  .responsive-slider .slick-arrow{
+    display: none !important;
+  }
+  h2,.h2{
+    font-size: 28px;
+  }
+}

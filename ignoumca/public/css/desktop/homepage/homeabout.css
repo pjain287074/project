@@ -1,0 +1,48 @@
+.about-info-img img{
+  height: 371px;
+}
+.about-infobar .btn-effect{
+  background: transparent;
+  color: #c00800;
+  border: 2px solid #c00800;
+}
+
+.about-infobar .btn-effect:hover{
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+}
+.about-infobar .btn-effect:before{
+  background: #c00800;
+}
+
+.feature-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 2px solid #dfdfdf;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2d4583;
+}
+.feature-icon img{
+  width: 60%;
+  height: 60%;
+}
+
+.about-info{
+  background: url('../../../images/desktop/homepage/12.jpg');
+  background-size: cover;
+}
+
+.feature-desc{
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 1.7;
+}
+.feature-heading{
+  font-size: 20px;
+  margin-bottom: 20px;
+}

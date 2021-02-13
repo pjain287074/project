@@ -1,0 +1,12 @@
+.overflow-x {
+  overflow-x: auto;
+}
+
+.bg-light {
+  background: #fcfcfc !important;
+}
+
+.capture-none * {
+  pointer-events: none;
+}
+

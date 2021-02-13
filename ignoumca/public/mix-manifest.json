@@ -1,0 +1,10 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/icons.css": "/css/icons.css",
+    "/css/text.css": "/css/text.css",
+    "/css/helpers.css": "/css/helpers.css",
+    "/css/hostel_single_page.css": "/css/hostel_single_page.css",
+    "/scripts/gallery.js": "/scripts/gallery.js",
+    "/scripts/lazyload.js": "/scripts/lazyload.js"
+}

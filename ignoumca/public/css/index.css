@@ -1,0 +1,123 @@
+
+html,body{
+  font-family: sofia,arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  src: url(../fontfamily/sofia_reg_subset.woff2) format("woff2");
+  font-family: sofia;
+  font-weight: 400;
+  font-style: normal;
+  font-display:swap
+}
+
+
+@font-face {
+  src: url(../fontfamily/sofia_bold_subset.woff2) format("woff2");
+  font-family: sofia;
+  font-weight: 700;
+  font-style: normal;
+  font-display:swap
+}
+
+:root {
+  /* --main-primary-color: #7f187f; */
+  
+  --main-primary-color: #00887a;
+  --main-body-font-color: #221924;
+  --main-footer-link-font-color: #615c65;
+  --main-primary-light-color: #e6d3e4;
+}
+
+
+
+.theme-text-primary {
+  color: var(--main-primary-color);
+}
+
+
+.primary-ghost-btn{
+  border: 2px solid;
+  color: var(--main-primary-color);
+}
+.icon{
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon svg,.icon img{
+  height: 100%;
+  width: 100%;
+}
+
+
+.icon-primary{
+  fill: var(--main-primary-color);
+}
+
+.btn-48{
+  height: 48px;
+  font-size: 16px;
+}
+.btn-rounded{
+  border-radius: 50vw;   
+}
+
+.primary-ghost-btn:hover{
+  text-decoration: none;
+  color: var(--main-primary-color);
+  background: var(--light);
+}
+
+.text-14{
+ font-size: 14px; 
+}
+
+.text-12{
+  font-size: 12px; 
+}
+
+.img-links{
+  text-decoration: none;
+}
+
+.primary-links:hover{
+  color : var(--main-primary-color);
+}
+
+.primary-links{
+  color : var(--main-primary-color);
+}
+
+.bg-primary-light{
+  background: var(--main-primary-light-color);
+}
+.bg-primary{
+  background: var(--main-primary-color) !important;
+}
+.btn-primary{
+  background: var(--main-primary-color) !important;
+  border-color: var(--main-primary-color);
+}
+.btn-primary:hover{
+  background: var(--main-primary-light-color) !important;
+  border-color: var(--main-primary-color);
+  color: var(--main-primary-color);
+}
+
+
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable{
+  background-color: var(--main-primary-color) !important;
+}
+
+.select2-container--default .select2-selection--multiple{
+  border: 1px solid #ced4da !important;
+}

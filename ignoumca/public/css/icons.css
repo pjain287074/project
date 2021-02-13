@@ -1,0 +1,41 @@
+.icon {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.icon svg,
+.icon img {
+  height: 100%;
+  width: 100%;
+}
+
+.icon:hover svg {
+  fill: #00887a;
+}
+
+.icon:hover img {
+  filter: drop-shadow(1px 0 0px #00887a);
+}
+
+.icon-primary {
+  fill: #00887a;
+}
+
+.icon-lg {
+  width: 56px;
+  height: 56px;
+}
+
+.icon-sm {
+  width: 14px;
+  height: 14px;
+}
+
+.icon-md {
+  width: 42px;
+  height: 42px;
+}
+

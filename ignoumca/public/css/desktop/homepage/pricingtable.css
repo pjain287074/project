@@ -1,0 +1,49 @@
+.pricing-box{
+  background: #f5f5f5;
+  font-family: sans-serif;
+  box-shadow: inset 0px 0px 1px 0px #cfcfcfcf;
+}
+.pricing-head{
+  padding: 15px 0;
+}
+.pricing-head h4{
+  margin: 0;
+  color: #2e4786;
+  font-weight: 700;
+  font-size: 27px;
+}
+.pricing-head span{
+  font-size: 18px;
+  line-height: 1;
+  color: #2d4786;
+  display: block;
+}
+.pricing-price{
+  background: #2e4786;
+  padding: 10px 0;
+}
+.pricing-price .price{
+  font-size: 41px;
+  color: #fff;
+  line-height: 1;
+}
+
+.pricing-price .price span{
+  font-size: 25px;
+}
+
+.price strong{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-content{
+  padding: 10px 0;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.pricing-content div{
+  padding: 10px 0;
+}

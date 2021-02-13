@@ -1,0 +1,14 @@
+.text-primary {
+  color: #00887a;
+}
+
+.text-primary-links {
+  color: #00887a;
+  text-decoration: none;
+}
+
+.text-primary-links:hover {
+  text-decoration: none;
+  color: #221924;
+}
+

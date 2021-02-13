@@ -1,0 +1,14 @@
+.card-title{
+  height: 40px;
+}
+.customer-card{
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .1s linear;
+}
+
+.customer-card:hover{
+  
+  margin-top: -10px;
+}
+

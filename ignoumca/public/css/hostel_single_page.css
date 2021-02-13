@@ -1,0 +1,30 @@
+.gallery-img-container {
+  overflow-x: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+  cursor: pointer;
+}
+
+.gallery-img-container .gallery-img {
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.gallery-img-container .gallery-img::before {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #4d4d4d;
+  content: "";
+  opacity: 0.2;
+}
+
+.gallery-img-container .gallery-img img {
+  width: 150px;
+  height: 150px;
+}
+

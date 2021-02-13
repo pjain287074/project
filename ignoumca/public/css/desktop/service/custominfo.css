@@ -1,0 +1,10 @@
+.custom-info{
+  background: url(../../../images/custom-info-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  padding: 60px 0;
+  margin-top: -3px;
+}
+.custom-info-image{
+  margin-left: 70px;
+}

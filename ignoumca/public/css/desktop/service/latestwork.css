@@ -1,0 +1,21 @@
+.custom-work{
+  background: url(../../../images/desktop/service/our-work.jpg) no-repeat;
+  background-size: cover;
+  padding: 20px 0 60px;
+}
+.custom-work h1{
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-weight: bolder;
+}
+.custom-work h2{
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+
+.custom-work p{
+  font-size: 16px;
+  letter-spacing: 2px;
+  width: 80%;
+  margin: auto;
+}

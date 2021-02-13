@@ -1,0 +1,13 @@
+.rocket-bg{
+  position: absolute;
+  background: url(../../../images/desktop/service/our-processor-line.png);
+  width: 100%;
+  height: 271px;
+  /* z-index: 10; */
+}
+.process-content{
+  background: transparent;
+}
+.process-content img{
+  z-index: 100;
+}

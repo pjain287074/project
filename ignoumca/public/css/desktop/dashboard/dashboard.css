@@ -1,0 +1,29 @@
+.right-container{
+  background: url(../../../images/desktop/login/custom-info-bg.jpg);
+  padding: 0;
+}
+.dashboard-container {
+  overflow: hidden;
+}
+
+.userinfo,.recentorder{
+  width: 70%;
+  background: #fff;
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.order-info{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.order-info:hover a{
+  color: #4d4d4d;
+}
+
+.form-cover{
+  width: 100%;
+  height: 100%;
+  background: rgba(180,180,180,0.1);
+  top:0;
+  left:0;
+}

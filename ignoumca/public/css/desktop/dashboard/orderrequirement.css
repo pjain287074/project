@@ -1,0 +1,24 @@
+.order-block{
+  background: #e1e1e1;
+  padding: 20px 0;
+  width: 70%;
+  margin: 40px auto;
+  /* box-shadow: 0px 0px 2px 0px #dfdfdf; */
+  /* border: 1px solid #dfdfdf; */
+}
+
+.order-block-head{
+  padding: 0 20px;
+}
+
+.order-block-head .price{
+  right: 20px;
+}
+
+.order-package-head{
+  padding: 10px 20px;
+  background-color: #cccaca;
+  color: #000;
+  margin-bottom: 20px;
+
+}

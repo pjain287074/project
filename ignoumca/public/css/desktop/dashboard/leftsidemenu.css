@@ -1,0 +1,70 @@
+.user-body {
+  height: 150px;
+  width: 100%;
+}
+.user-img-container {
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  border: 5px solid #fff;
+  border-radius: 100%;
+}
+.user-image{
+  height: 150px;
+  width: 150px;
+}
+
+.edit-profile{
+  padding: 5px 5px;
+}
+.edit-profile p{
+  margin: 0;
+  display: inline-block;
+  padding: 5px 20px;
+  border: 2px solid #e4aba8;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.menu-container{
+  margin-top: 40px;
+  padding: 0 !important;
+}
+.menu-container .menu-link{
+  list-style: none;
+  display: block;
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+}
+.menu-link .anchor-link{
+  color: #fff;
+  font-size: 16px;
+  font-weight: lighter;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding: 10px 0 0;
+  /* position: absolute; */
+  height: inherit;
+}
+
+.menu-link .active{
+  border-left: 10px solid #e4aba8;
+  background: #dfdfdf2e;
+}
+
+.left-container-menu{
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+.anchor-link img{
+  height: 60px;
+  width: 60px;
+}

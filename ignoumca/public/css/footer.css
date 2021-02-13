@@ -1,0 +1,10 @@
+.footer-links{
+  color : var(--main-footer-link-font-color);
+}
+.footer-links:hover{
+  color : var(--main-primary-color);
+}
+.footer-section h2{
+  font-weight: 700;
+  font-size: 25px;
+}

@@ -1,0 +1,229 @@
+
+
+.cd-dropdown-icons {
+  width: 600px;
+  position: absolute;
+  padding: 20px 30px ;
+  left: 0%;
+  display: none;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 14px rgba(0,0,0,.1);
+  list-style: none;
+  max-height: 1200px;
+  z-index: 1000;
+  top: 47px;
+}
+.cd-dropdown-icons .cd-dropdown-item {
+  height: 80px;
+  line-height: 1.2;
+  padding: 24px 0 0 85px;
+  text-decoration: none;
+}
+
+.cd-dropdown-icons .cd-dropdown-item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  /* left: 0px; */
+  /* top: 50%; */
+  
+  /* transform: translateY(-50%); */
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 40px 40px;
+}
+
+.cd-dropdown-icons .cd-dropdown-item div{
+  margin-left: 50px;
+  margin-top: 5px;
+}
+.cd-dropdown-icons .cd-dropdown-item h3 {
+  font-weight: 70;  
+  font-size: 16px;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cd-dropdown-icons .cd-dropdown-item p {
+  display: block;
+  font-size: 14px;
+
+}
+
+ .cd-dropdown-icons>li {
+  width: 50%;
+  float: left;
+  height: 80px;
+  padding-left: 20px;
+}
+
+.cd-dropdown-icons li:hover {
+  background: #fcfcfc;
+  box-shadow: 0 2px 14px rgba(0,0,0,.1);
+}
+.cd-dropdown-icons li:hover h3{
+  font-weight: bold;
+}
+.cd-dropdown-icons .cd-dropdown-item {
+  position: relative;
+}
+.has-children.nav-item.cd-dropdown-content:hover .first-dropdown {
+  display: block;
+}
+.first-dropdown{
+  display: none;
+  left: -150%;
+}
+.services-category{
+  width: 200px;
+  /* margin: auto; */
+  text-align:center;
+  background: #fff;
+  box-shadow: 0 2px 14px rgba(0,0,0,.1);
+  padding: 10px 0;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.services-category:hover ul{
+  display: block;
+  left: 100%;
+  top: 0;
+}
+.services-category:hover{
+  border-left: 2px solid #c00800;
+  width: 198px;
+  /* margin: auto; */
+}
+
+.cd-dropdown-icons.graphics .cd-dropdown-item.item-1:before {
+  background-image: url(../../../images/desktop/dropdown/graphic/logo-design.svg);
+}
+.cd-dropdown-icons.graphics .cd-dropdown-item.item-2:before {
+  background-image: url(../../../images/desktop/dropdown/graphic/flyer.svg);
+}
+.cd-dropdown-icons.graphics .cd-dropdown-item.item-3:before {
+  background-image: url(../../../images/desktop/dropdown/graphic/banner.svg);
+}
+.cd-dropdown-icons.graphics .cd-dropdown-item.item-4:before {
+  background-image: url(../../../images/desktop/dropdown/graphic/packaging.svg);
+}
+.cd-dropdown-icons.graphics .cd-dropdown-item.item-5:before {
+  background-image: url(../../../images/desktop/dropdown/graphic/infographic.svg);
+}
+.cd-dropdown-icons.graphics .cd-dropdown-item.item-6:before {
+  background-image: url(../../../images/desktop/dropdown/graphic/book.svg);
+}
+.cd-dropdown-icons.graphics .cd-dropdown-item.item-7:before {
+  background-image: url(../../../images/desktop/dropdown/graphic/card.svg);
+}
+.cd-dropdown-icons.graphics .cd-dropdown-item.item-8:before {
+  background-image: url(../../../images/desktop/dropdown/graphic/tshirt.svg);
+}
+.cd-dropdown-icons.graphics .cd-dropdown-item.item-9:before {
+  background-image: url(../../../images/desktop/dropdown/graphic/uiux.svg);
+}
+.cd-dropdown-icons.graphics .cd-dropdown-item.item-10:before {
+  background-image: url(../../../images/desktop/dropdown/graphic/invitation.svg);
+}
+.cd-dropdown-icons.graphics .cd-dropdown-item.item-11:before {
+  background-image: url(../../../images/desktop/dropdown/graphic/store.svg);
+}
+.cd-dropdown-icons.graphics .cd-dropdown-item.item-12:before {
+  background-image: url(../../../images/desktop/dropdown/graphic/carwrps.svg);
+}
+
+.cd-dropdown-icons.videos .cd-dropdown-item.item-1:before {
+  background-image: url(../../../images/desktop/dropdown/video/logointro.svg);
+}
+.cd-dropdown-icons.videos .cd-dropdown-item.item-2:before {
+  background-image: url(../../../images/desktop/dropdown/video/videoediting.svg);
+}
+.cd-dropdown-icons.videos .cd-dropdown-item.item-3:before {
+  background-image: url(../../../images/desktop/dropdown/video/motiongraphics.svg);
+}
+.cd-dropdown-icons.videos .cd-dropdown-item.item-4:before {
+  background-image: url(../../../images/desktop/dropdown/video/videoads.svg);
+}
+.cd-dropdown-icons.videos .cd-dropdown-item.item-5:before {
+  background-image: url(../../../images/desktop/dropdown/video/businessintro.svg);
+}
+.cd-dropdown-icons.videos .cd-dropdown-item.item-6:before {
+  background-image: url(../../../images/desktop/dropdown/video/whiteboard.svg);
+}
+.cd-dropdown-icons.videos .cd-dropdown-item.item-7:before {
+  background-image: url(../../../images/desktop/dropdown/video/weddinggift.svg);
+}
+.cd-dropdown-icons.videos .cd-dropdown-item.item-8:before {
+  background-image: url(../../../images/desktop/dropdown/video/lyricsandmusic.svg);
+}
+.cd-dropdown-icons.videos .cd-dropdown-item.item-9:before {
+  background-image: url(../../../images/desktop/dropdown/video/presentation.svg);
+}
+.cd-dropdown-icons.videos .cd-dropdown-item.item-10:before {
+  background-image: url(../../../images/desktop/dropdown/video/invitationvideo.svg);
+}
+
+
+.cd-dropdown-icons.websites .cd-dropdown-item.item-1:before {
+  background-image: url(../../../images/desktop/dropdown/website/webprogramming.svg);
+}
+.cd-dropdown-icons.websites .cd-dropdown-item.item-2:before {
+  background-image: url(../../../images/desktop/dropdown/website/wordpress.svg);
+}
+.cd-dropdown-icons.websites .cd-dropdown-item.item-3:before {
+  background-image: url(../../../images/desktop/dropdown/website/ecommerce.svg);
+}
+.cd-dropdown-icons.websites .cd-dropdown-item.item-4:before {
+  background-image: url(../../../images/desktop/dropdown/website/cms&webbuilder.svg);
+}
+.cd-dropdown-icons.websites .cd-dropdown-item.item-5:before {
+  background-image: url(../../../images/desktop/dropdown/website/convertfiles.svg);
+}
+
+
+
+
+.cd-dropdown-icons.digitalmarketing .cd-dropdown-item.item-1:before {
+  background-image: url(../../../images/desktop/dropdown/digitalmarketing/emailmarketing.svg);
+}
+.cd-dropdown-icons.digitalmarketing .cd-dropdown-item.item-2:before {
+  background-image: url(../../../images/desktop/dropdown/digitalmarketing/socialmanager.svg);
+}
+.cd-dropdown-icons.digitalmarketing .cd-dropdown-item.item-3:before {
+  background-image: url(../../../images/desktop/dropdown/digitalmarketing/socialmediapromo.svg);
+}
+.cd-dropdown-icons.digitalmarketing .cd-dropdown-item.item-4:before {
+  background-image: url(../../../images/desktop/dropdown/digitalmarketing/videopromotion.svg);
+}
+.cd-dropdown-icons.digitalmarketing .cd-dropdown-item.item-5:before {
+  background-image: url(../../../images/desktop/dropdown/digitalmarketing/webmanager.svg);
+}
+.cd-dropdown-icons.digitalmarketing .cd-dropdown-item.item-6:before {
+  background-image: url(../../../images/desktop/dropdown/digitalmarketing/webpromotion.svg);
+}
+
+
+
+.cd-dropdown-icons.tutorial .cd-dropdown-item.item-1:before {
+  background-image: url(../../../images/desktop/dropdown/tutorial/adobe-photoshop.svg);
+}
+.cd-dropdown-icons.tutorial .cd-dropdown-item.item-2:before {
+  background-image: url(../../../images/desktop/dropdown/tutorial/adobe-illustrator.svg);
+}
+.cd-dropdown-icons.tutorial .cd-dropdown-item.item-3:before {
+  background-image: url(../../../images/desktop/dropdown/tutorial/after-effects.svg);
+}
+.cd-dropdown-icons.tutorial .cd-dropdown-item.item-4:before {
+  background-image: url(../../../images/desktop/dropdown/tutorial/premier.svg);
+}
+.cd-dropdown-icons.tutorial .cd-dropdown-item.item-5:before {
+  background-image: url(../../../images/desktop/dropdown/tutorial/htmlcss.svg);
+}
+.cd-dropdown-icons.tutorial .cd-dropdown-item.item-6:before {
+  background-image: url(../../../images/desktop/dropdown/tutorial/datastructure.svg);
+}

@@ -1,0 +1,38 @@
+.footer-line {
+  border: 0;
+  width: 10%;
+  height: 2px;
+  margin: auto;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-infobar {
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-infobar:hover {
+  color: #c00800;
+  text-decoration: none;
+}
+
+.footer-icon{
+  display: flex;
+  text-align: center;
+  width: 120px;
+  margin: auto;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+.social-icon svg{
+  width: 30px;
+  height: 30px;
+}
+.social-icon svg path{
+  fill: #fff !important;
+}
+.social-icon:hover path{
+  fill: #c00800 !important;
+}
