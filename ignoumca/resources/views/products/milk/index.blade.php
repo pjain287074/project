@@ -3,7 +3,7 @@
    <div class="col-md-12">
      <div class="row">
        <div class="col-sm-1"></div>
-       <form class="col col-md-10 card p-40 shadow  mb-5 js-form d-none my-5" id="{{$id}}" data-progress-class="js-progress-bar" data-progress-active-class="active3" data-next-form-id="">
+       <form class="col col-md-10 card p-40 shadow  mb-5 js-form d-none my-5" data-url="http://3.7.125.151/api/productinsert" id="{{$id}}" data-progress-class="js-progress-bar" data-progress-active-class="active3" data-next-form-id="thankyou-page">
            <div class="form-group">
              <label for="customer_usage">How often do you drink milk?</label>
  

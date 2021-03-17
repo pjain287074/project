@@ -1,5 +1,4 @@
  
- 
  <div class="project-info border border-left-0 border-right-0 container-fluid">
    <!-- here the project name will be present and your choose package is displayed -->
    <div class="row">
@@ -31,6 +30,20 @@
      <div class="col-md-2 d-none d-md-block"></div>
    </div>
  </div>
+
+<div class="formdata container-fluid overflow-hidden d-none" id="thankyou-page">
+ <div class="row">
+   <div class="col-md-12">
+     <h1 class="text-center color-red my-5">
+         Thank You For Filling Response
+         </h1>
+         </div>
+     </div>
+    </div>
+
+
+
+
  <div class="formdata container-fluid overflow-hidden">
    <div class="row">
      <div class=" col-md-12">

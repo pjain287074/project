@@ -47,19 +47,18 @@ public function insert(Request $request){
 
 
    public function productinsert(Request $request){
- //dd($request);
+	    dd($request);
 
         $item = new product;
-        $item->type=$request->input('type');
-        $item->oftenconsume=$request->input('oftenconsume');
-        $item->store=$request->input('store');
-        $item->brand=$request->input('brand');
-        $item->factors=$request->input('factors');
-        $item->deliverycomments=$request->input('deliverycomments');
+        $item->q1=$request->input('q1');
+        $item->q2=$request->input('q2');
+        $item->q3=implode(',',$request->input('q3'));
+        $item->business_info=$request->input('business_info');
 
 
 
         $item->save();
+	dd($item);
 
 
         if( $item->save()){

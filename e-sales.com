@@ -5,7 +5,7 @@ server {
     root /var/www/ignoumca/public;
     index index.php index.html index.htm index.nginx-debian.html;
 
-    server_name 3.7.125.151;
+    server_name _;
     error_log /var/log/nginx/error.log warn;
     access_log /var/log/nginx/access.log json;
     location / {
